@@ -1,0 +1,28 @@
+/**
+ *
+ * @author Chris 18/06/2023
+ */
+package cristinah.helloworld;
+
+
+public class Data_Type {
+
+    public static void main(String[] args) {
+
+        // declare an int called counter
+        int counter = 7;
+
+        // declare a boolean called isDone
+        boolean Cristina = false;
+
+        
+    // Print the values of counter and Cristina
+        System.out.println("counter: " + counter);
+        System.out.println("Cristina: " + Cristina); 
+        
+        
+//desired output
+//counter: 7
+//Cristina: false
+    }
+}
