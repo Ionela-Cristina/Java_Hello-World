@@ -1,0 +1,53 @@
+/**
+ *
+ * @author Chris 18/06/2023
+ */
+package cristinah.helloworld;
+
+import java.util.Scanner;
+
+public class Do_It_Better {
+
+    public static void main(String[] args) {
+        Scanner inputReader = new Scanner(System.in);
+
+        System.out.println("How many miles can you run?");
+        int miles = inputReader.nextInt();
+        inputReader.nextLine();
+
+        int betterMiles = miles * 2 + 1;
+        System.out.println("That's impressive, but I can run " + betterMiles + " miles!");
+
+        System.out.println("How many hot dogs can you eat?");
+        int hotDogs = inputReader.nextInt();
+        inputReader.nextLine();
+
+        int betterHotDogs = hotDogs * 2 + 1;
+        System.out.println("Not bad, but I can eat " + betterHotDogs + " hot dogs!");
+
+        System.out.println("How many languages do you know?");
+        int languages = inputReader.nextInt();
+        inputReader.nextLine();
+
+        int betterLanguages = languages * 2 + 1;
+        System.out.println("That's impressive, but I know " + betterLanguages + " languages!");
+
+        inputReader.close();
+        
+/**desired output
+ 
+How many miles can you run?
+5
+That's impressive, but I can run 11 miles!
+How many hot dogs can you eat?
+1
+Not bad, but I can eat 3 hot dogs!
+How many languages do you know?
+3
+That's impressive, but I know 7 languages!
+         
+*/
+
+//this program constantly one-ups the user's accomplishments.
+    }
+}
