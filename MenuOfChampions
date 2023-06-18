@@ -1,0 +1,51 @@
+/**
+ *
+ * @author Chris 18/06/2023
+ */
+
+package cristinah.helloworld;
+public class MenuOfChampions {
+    public static void main(String[] args) {
+        
+        String menuTitle = "oOOo oOOo oOOo oOOo oOOo oOOo";
+        //create variablle for restaurant name
+        String restaurantName = "Valush and Miussette";
+        //string for the Title of the menu, there is no name but simbols
+       
+
+        //string to define the first name of the food in the 
+        String food1 = "Slice of Big Rico Pizza";
+        double Price1 = 6;
+//David say that double reflects the space for numbers with remainder 
+//like 10.17 which is the one for prices as they may be in that form
+        String food2 = "Invisible Strawberry Pie";
+        double Price2 = 5;
+
+        String food3 = "Denver Omelet";
+        double Price3 = 7;
+
+//after defining the food and price then just list under the print lane..
+        System.out.println(menuTitle);
+        System.out.println("WELCOME TO " + restaurantName + "!");
+        System.out.println("      Today's Menu Is...");
+        System.out.println(menuTitle);
+        System.out.println("    " + Price1 + "  " + food1);
+        System.out.println("    " + Price2 + "  " + food2);
+        System.out.println("    " + Price3 + "  " + food3);
+        System.out.println(menuTitle);
+        
+        
+/**desired output
+oOOo oOOo oOOo oOOo oOOo oOOo
+WELCOME TO Valush and Miussette!
+      Today's Menu Is...
+oOOo oOOo oOOo oOOo oOOo oOOo
+    6.0  Slice of Big Rico Pizza
+    5.0  Invisible Strawberry Pie
+    7.0  Denver Omelet
+oOOo oOOo oOOo oOOo oOOo oOOo
+
+*/
+    }
+}    
+    
