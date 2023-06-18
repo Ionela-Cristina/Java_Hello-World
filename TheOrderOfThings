@@ -1,0 +1,39 @@
+/**
+ *
+ * @author Chris 18/06/2023
+ */
+package cristinah.helloworld;
+
+public class TheOrderOfThings {
+
+    public static void main(String[] args) {
+        double number;
+        String opinion, size, age, shape, color, origin, material, purpose;
+        String noun;
+
+        number = 5.0;
+        opinion = "AWESOME";
+        size = "teensy-weensy";
+        age = "new";
+        shape = "oblong";
+        color = "yellow";
+        origin = "Martian";
+        material = "platinum";
+        purpose = "good";
+        
+        noun = "dragons"; // change the "dragons"does not reflect in output
+
+        // Using the + with strings doesn't add -- it concatenates! (sticks them together)
+        System.out.println(number + " " + color + " " + opinion + " " + age + " " + shape
+                + " " + size + " " + origin + " " + material + " " + noun + " " + purpose);//changing also the place here has changet the output
+//here I observed how changing changing the order of things affect the output if you don't modify also the the "condition"?
+//changing the size with opinion then the output works without moving place in the declaration of of the variable
+    
+
+
+/** Final result
+5.0 yellow AWESOME new oblong teensy-weensy Martian platinum dragons good
+ */
+    
+    }
+}
