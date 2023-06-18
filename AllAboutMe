@@ -1,0 +1,39 @@
+/**
+ *
+ * @author Chris 18/06/2023
+ */
+package cristinah.helloworld;
+
+/**
+ *
+ * @author chris
+ */
+public class AllAboutMe {
+    public static void main(String[] args) {
+        
+        //this project request to create the variables based on their type 
+        //and assign to them, then output the variables in propositions 
+        //predefined by the project
+        
+        String myName = "Cristina";
+        String favoriteFood = "cake";
+        //I create the int for the pets
+        int numPets = 2;
+        String livingPlace = "paradise";
+        boolean canWhistle = true;
+
+        System.out.println("My name is " + myName + ".");
+        System.out.println("My favorite food is " + favoriteFood + ".");
+        System.out.println("I have " + numPets + " cats.");
+        System.out.println("I live in " + livingPlace + ", and I like it there.");
+        System.out.println("It is " + canWhistle + " I know how to whistle.");
+        
+/**desired output
+My name is Cristina.
+My favourite food is cake.
+I have 2 cat(s).
+I live in paradise, and I like it there.
+It is true I know how to whistle.
+         */
+    }
+}
