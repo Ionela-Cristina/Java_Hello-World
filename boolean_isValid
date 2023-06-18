@@ -1,0 +1,36 @@
+/**
+ *
+ * @author Chris 18/06/2023
+ */
+
+
+package cristinah.helloworld;
+
+import java.util.Scanner;
+
+public class boolean_isValid {
+
+    public static void main(String[] args) {
+        boolean isValid = false;
+        Scanner myScanner = new Scanner(System.in);
+
+        do {
+            String input = myScanner.nextLine();
+            if (input == null || input.isEmpty()) { //just press Enter input until a non-empty value is entered
+                System.out.println("You did not enter anything!");
+            } else {
+                isValid = true;
+            }
+        } while (!isValid);
+
+        myScanner.close();
+/** desired output 
+You did not enter anything! 
+                    Comment //(if input is Empty (ENTER button) You did not enter anything! 
+                    continue comment //repeat until a non-empty (true or false) is entered)
+
+You did not enter anything!
+
+You did not enter anything!
+true
+*/
