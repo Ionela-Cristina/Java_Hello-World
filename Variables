@@ -1,0 +1,25 @@
+ * @author Chris 18/06/2023
+ */
+package cristinah.helloworld;
+
+public class Variables {
+    public static void main(String[] args) {
+
+        // declare an int called counter
+        int counter;
+        // now assign the number 7 to counter
+        counter = 7;
+        System.out.println("counter: " + counter);
+
+        // declare a boolean called isDone
+        boolean isDone;
+        // now assign false to isDone
+        isDone = false;
+        System.out.println("isDone: " + isDone);
+        
+/**desired output
+counter: 7
+isDone: false
+*/
+    }
+}
