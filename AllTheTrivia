@@ -1,0 +1,63 @@
+/**
+ *
+ * @author Chris 18/06/2023
+ */
+package cristinah.helloworld;
+
+import java.util.Scanner;
+
+public class AllTheTrivia {
+
+    public static void main(String[] args) {
+        Scanner inputReader = new Scanner(System.in);
+
+        String question1 = "What unit is equivalent to 1,024 Gigabytes?";
+        String answer1 = "Terabyte";
+
+        String question2 = "Which planet is the only one that rotates clockwise in our Solar System?";
+        String answer2 = "Venus";
+
+        String question3 = "The largest volcano ever discovered in our Solar System is located on which planet?";
+        String answer3 = "Mars";
+
+        String question4 = "What is the most abundant element in the earth's atmosphere?";
+        String answer4 = "Nitrogen";
+
+        System.out.println(question1);
+        String userAnswer1 = inputReader.nextLine();
+
+        System.out.println(question2);
+        String userAnswer2 = inputReader.nextLine();
+
+        System.out.println(question3);
+        String userAnswer3 = inputReader.nextLine();
+
+        System.out.println(question4);
+        String userAnswer4 = inputReader.nextLine();
+
+        System.out.println();
+
+        System.out.println("Wow, " + userAnswer1 + " is a Mars!");
+        System.out.println("I didn't know that the largest ever volcano was discovered on " + userAnswer2 + "!");
+        System.out.println("That's amazing that Venus is the most abundant element in the atmosphere...");
+        System.out.println("Nitrogen is the only planet that rotates clockwise, neat!");
+
+        inputReader.close();
+    }
+}
+/**desired output
+What unit is equivalent to 1,024 Gigabytes?
+Terabyte
+Which planet is the only one that rotates clockwise in our Solar System?
+Venus
+The largest volcano ever discovered in our Solar System is located on which planet?
+Mars
+What is the most abundant element in the earth's atmosphere?
+Nitrogen
+
+//this is intentionally wrong mixt of responses
+Wow, Terabyte is a Mars!
+I didn't know that the largest ever volcano was discovered on Venus!
+That's amazing that Venus is the most abundant element in the atmosphere...
+Nitrogen is the only planet that rotates clockwise, neat!
+ */
