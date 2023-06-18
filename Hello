@@ -1,0 +1,20 @@
+/**
+ *
+ * @author Chris 18/06/2023
+ */
+package cristinah.helloworld;
+public class Hello {
+    
+    public static void main(String[] args) {
+        
+        System.out.println("Hello, World!");
+         System.out.println("My name is Harry!");
+         
+  /** desired output
+   
+Hello, World!
+My name is Harry!
+*/       
+         
+    }
+}
