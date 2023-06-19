@@ -1,0 +1,36 @@
+/**
+ *
+ * @author Chris 19 June 2023
+ */
+package cristinah.helloworld;
+
+import java.util.Scanner;
+
+public class HealtyHearts {
+ public static void main(String[] args) {
+        Scanner inputReader = new Scanner(System.in);
+
+        System.out.println("What is your age? ");
+        int age = inputReader.nextInt();
+
+        int maxHeartRate = 220 - age;
+        int targetHRLow = (int) (maxHeartRate * 0.5);
+        int targetHRHigh = (int) (maxHeartRate * 0.85);
+
+        System.out.println("Your maximum heart rate should be " + maxHeartRate + " beats per minute.");
+        System.out.println("Your target HR Zone is " + targetHRLow + " - " + targetHRHigh + " beats per minute.");
+
+        inputReader.close();
+        
+        //asks user for their age and then uses this 
+        //value to calculate and display the healthy heart rate 
+        //range they should use for exercising
+        
+/**desired output
+What is your age? 
+45
+Your maximum heart rate should be 175 beats per minute.
+Your target HR Zone is 87 - 148 beats per minute.
+*/
+    }   
+}
