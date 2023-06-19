@@ -1,0 +1,36 @@
+/**
+ *
+ * @author Chris 
+ */
+package cristinah.helloworld;
+
+import java.util.Scanner;
+
+public class BiggerBetterAdder {
+
+    public static void main(String[] args) {
+
+        Scanner inputReader = new Scanner(System.in);
+
+        System.out.println("Enter the first number: ");
+        int number1 = inputReader.nextInt();
+
+        System.out.println("Enter the second number: ");
+        int number2 = inputReader.nextInt();
+
+        int sum = number1 + number2;
+        System.out.println("The sum of " + number1 + " and " + number2 + " is: " + sum);
+
+        inputReader.close();
+
+/**desired output
+//user to input the numbers that they want to add together, store the input in variables, and display the results 
+ 
+Enter the first number: 
+11
+Enter the second number: 
+23
+The sum of 11 and 23 is: 34  (this is exactly the desired output)       
+ */
+    }
+}
